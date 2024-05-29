@@ -19,6 +19,6 @@ public class DaytimeGetter {
         String formattedDateTime = currentTime.format(formatter);
         
         // Print the formatted date and time
-        System.out.println("Current date and time: " + formattedDateTime);
+        System.out.println("Current date & time: " + formattedDateTime);
     }
 }

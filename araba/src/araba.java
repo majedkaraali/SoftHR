@@ -2,6 +2,7 @@ public class araba {
 
     private String marka;
     private String model;
+    private String price;
     
 
     private String motorTipi;
@@ -45,6 +46,18 @@ public class araba {
             return marka;
         }
     
+
+        public String getFiat(){
+            return price;
+        }
+
+        public void setPrice(String price) {
+            this.price = price;
+        }
+    
+
+
+
         public void setMarka(String marka) {
             this.marka = marka;
         }
