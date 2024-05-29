@@ -2,7 +2,7 @@ public class araba {
 
     private String marka;
     private String model;
-    
+    private String price;
 
     private String motorTipi;
     private double motorHacmi;
